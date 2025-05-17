@@ -35,4 +35,13 @@ export const GlobalStyle = createGlobalStyle`
       color: ${(props) => props.theme["base-label"]};
     }
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1rem;
+  }
 `;
